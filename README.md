@@ -1,11 +1,11 @@
 # HTTPLeaks
 
-## What is this?
+## What is the aim of project?
 
 This project aims to enumerate all possible ways, a website can leak HTTP requests. 
 In one single HTML file. See the file `leak.html` ([raw text version](https://raw.githubusercontent.com/cure53/HTTPLeaks/main/leak.html)) in the root of this repository.
 
-## What is it for?
+## What is it for and tools used in it?
 
 You can use this to test your browser for *CSP leaks*, your web-mailer for *HTTP leaks* and everything else that is *not* supposed to send HTTP requests to where the sun won't shine.
 
@@ -15,7 +15,7 @@ Or think about web proxies. Those tools try to show you a website from a differe
 
 And, since no one really knows anymore what elements and attributes can request external resources, we decided to create this project to keep track on that.
 
-## And now?
+## And now what you have to do?
 
 The HTML will be extended as soon as we learn about a new leak, pull requests with additional exotic sources for HTTP leaks are very welcome! Further welcome are ideas of how else this content could be presented (JSON, HTML, XML, ...).
 
